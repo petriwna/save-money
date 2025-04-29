@@ -39,10 +39,10 @@
   &__burger {
     background-color: transparent;
     border: none;
-    height: 24px;
-    width: 24px;
+    height: 34px;
+    width: 34px;
     padding: 0;
-    fill: var(--color-black);
+    fill: var(--color-secondary);
 
     @media screen and (min-width: $bp-tablet) {
       display: none;

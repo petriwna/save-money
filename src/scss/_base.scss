@@ -14,8 +14,9 @@ body {
   font-weight: 300;
   line-height: 1.5;
   margin: 0;
-  color: var(--color-black);
+  color: var(--color-primary);
   cursor: default;
+  background-color: var(--primary-bg);
 }
 
 h1,
