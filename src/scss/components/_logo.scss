@@ -2,9 +2,17 @@
   display: flex;
   align-items: center;
   font-weight: 800;
-  font-size: 49px;
+  font-size: 29px;
   color: var(--color-black);
   text-wrap: nowrap;
+
+  @media screen and (min-width: $bp-tablet) {
+    font-size: 39px;
+  }
+
+  @media screen and (min-width: $bp-desktop) {
+    font-size: 49px;
+  }
 
   &__link {
     color: var(--color-black);
