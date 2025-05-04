@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
-    <link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96"/>
-    <link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg"/>
-    <link rel="shortcut icon" href="/favicon/favicon.ico"/>
-    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png"/>
+    <link rel="icon" type="image/png" href="./favicon/favicon-96x96.png" sizes="96x96"/>
+    <link rel="icon" type="image/svg+xml" href="./favicon/favicon.svg"/>
+    <link rel="shortcut icon" href="./favicon/favicon.ico"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png"/>
     <meta name="apple-mobile-web-app-title" content="SoSparen"/>
-    <link rel="manifest" href="/favicon/site.webmanifest"/>
+    <link rel="manifest" href="./favicon/site.webmanifest"/>
 
     <meta name="description" content="Lernen Sie, wie man in Deutschland effektiv sparen kann. Tipps zu Mieten, Lebensmitteln, Versicherungen und mehr. Nutzen Sie unseren Sparrechner, um Ihre Ziele zu erreichen.">
     <meta name="keywords" content="Sparen in Deutschland, Tipps, Sparrechner, Mieten, Versicherungen, Finanzen, Kosten sparen">
@@ -18,21 +18,21 @@
     <!-- Open Graph für soziale мережі (Facebook, LinkedIn і т.д.) -->
     <meta property="og:title" content="Wie man in Deutschland sparen kann">
     <meta property="og:description" content="Erfahren Sie praktische Tipps zum Sparen in Deutschland, von Miet- und Versicherungstipps bis hin zum Sparrechner.">
-    <meta property="og:image" content="URL_zu_Ihrem_Bild.jpg">
-    <meta property="og:url" content="https://www.top-prodaj.pp.ua">
+    <meta property="og:image" content="https://yourdomain.com/hero-img.png">
+    <meta property="og:url" content="https://yourdomain.com">
     <meta property="og:type" content="website">
 
     <!-- Twitter Card для Twitter -->
     <meta name="twitter:title" content="Wie man in Deutschland sparen kann">
     <meta name="twitter:description" content="Lernen Sie, wie man in Deutschland sparen kann und erreichen Sie Ihre finanziellen Ziele mit unseren Tipps und Tools.">
-    <meta name="twitter:image" content="URL_zu_Ihrem_Bild.jpg">
-    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://yourdomain.com/hero-img.png">
+    <meta name="twitter:card" content="https://yourdomain.com">
 
     <link
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
     />
-    <title>Free Finance Book</title>
+    <title>Wie man in Deutschland sparen kann</title>
 </head>
 <body>
 <header class="header">
@@ -40,16 +40,17 @@
         <div class="header__container">
             <nav class="header__nav">
                 <div class="header__logo logo">
-                    <img class="logo__img" src="public/images/books.svg" alt="Logo">
+                    <img class="logo__img" src="public/images/euro.png" alt="Logo">
                     <a class="logo__link link" href="/">
-                        Book
+                        Sparen DE
                     </a>
                 </div>
                 <ul class="header__menu">
-                    <li><a class="link" href="#about">About</a></li>
-                    <li><a class="link" href="#get">Get the Book</a></li>
-                    <li><a class="link" href="#faq">FAQ</a></li>
-                    <li><a class="link" href="#reviews">Reviews</a></li>
+                    <li><a class="link" href="#intro">Intro</a></li>
+                    <li><a class="link" href="#tipps">Tipps</a></li>
+                    <li><a class="link" href="#hacks">Finanz-Hacks</a></li>
+                    <li><a class="link" href="#calculator">Sparrechner</a></li>
+                    <li><a class="link" href="#kontakt">Kontakt</a></li>
                 </ul>
             </nav>
             <button class="header__burger menu-btn-open" type="button">
@@ -60,30 +61,21 @@
             <div class="mobile-menu">
                 <button class="mobile-menu__btn-close menu-btn-close" type="button">
                     <svg width="24" height="24">
-                        <use href="../public/images/icons.svg#icon-close"></use>
+                        <use href="./public/images/icons.svg#icon-close"></use>
                     </svg>
                 </button>
                 <div class="header__logo logo">
-                    <img class="logo__img" src="public/images/books.svg" alt="Logo">
-                    <a class="logo__link link" href="/">
-                        Book
+                    <img class="logo__img" src="./public/images/euro.png" alt="Logo">
+                    <a class="link" href="/">
+                        Sparen DE
                     </a>
                 </div>
                 <ul class="mobile-menu__list">
-                    <li>
-                        <a class="mobile-menu__link" href="#about">
-                            About
-                        </a>
-                    </li>
-                    <li><a class="mobile-menu__link" href="#get">Get the Book</a></li>
-                    <li>
-                        <a class="mobile-menu__link" href="#faq">
-                            FAQ
-                        </a>
-                    </li>
-                    <li>
-                        <a class="mobile-menu__link" href="#reviews">Reviews</a>
-                    </li>
+                    <li><a class="mobile-menu__link" href="#intro">Intro</a></li>
+                    <li><a class="mobile-menu__link" href="#tipps">Tipps</a></li>
+                    <li><a class="mobile-menu__link" href="#hacks">Finanz-Hacks</a></li>
+                    <li><a class="mobile-menu__link" href="#calculator">Sparrechner</a></li>
+                    <li><a class="mobile-menu__link" href="#kontakt">Kontakt</a></li>
                 </ul>
             </div>
         </div>
@@ -99,9 +91,6 @@
                     erleichtern und größere Ziele ermöglichen kann – sei es ein Auto, Urlaub oder
                     Eigenheim.
                 </p>
-                <button class="hero-section__button button modal-btn-open" type="button"
-                >Download for Free
-                </button>
             </div>
             <div class="hero-section__img-container">
                 <div class="hero-section__image"></div>
@@ -416,7 +405,7 @@
             <nav class="footer__nav">
                 <div class="footer__logo logo">
                     <img class="logo__img" src="public/images/euro.png" alt="Logo">
-                    <a class="footer__link link" href="/">
+                    <a class="logo__link logo__link--footer link" href="/">
                         Sparen DE
                     </a>
                 </div>

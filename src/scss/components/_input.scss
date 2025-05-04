@@ -13,11 +13,11 @@
     font-size: 16px;
     line-height: 1.17;
     border-radius: 8px;
-    border: 1px solid var(--color-secondary);
+    border: 1px solid var(--color-black);
     background-color: transparent;
 
     &:focus {
-      border-color: var(--secondary-bg);
+      border-color: var(--dark-blue);
       outline: none;
     }
 

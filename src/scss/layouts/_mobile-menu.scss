@@ -6,7 +6,7 @@
   width: 100%;
   height: 100%;
   padding: 16px 24px;
-  background-color: var(--primary-bg);
+  background-color: var(--color-white);
   transform: translateX(100%);
   transition: transform .3s;
 
@@ -23,7 +23,7 @@
     justify-content: center;
     padding: 0;
     fill: transparent;
-    stroke: var(--color-secondary);
+    stroke: var(--color-black);
     background-color: transparent;
     border: none;
     cursor: pointer;
@@ -37,7 +37,7 @@
   }
 
   &__link {
-    color: var(--color-primary);
+    color: var(--color-black);
     font-size: 16px;
     line-height: 1.5;
     text-decoration: none;
